@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC188BFF2B3956E400CA70B3 /* PendingEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC188BFE2B3956E400CA70B3 /* PendingEventView.swift */; };
 		BC324A682B2F1C0100448CED /* Events_auApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A672B2F1C0100448CED /* Events_auApp.swift */; };
 		BC324A6A2B2F1C0100448CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A692B2F1C0100448CED /* ContentView.swift */; };
 		BC324A6C2B2F1C0300448CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC324A6B2B2F1C0300448CED /* Assets.xcassets */; };
 		BC324A6F2B2F1C0300448CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC324A6E2B2F1C0300448CED /* Preview Assets.xcassets */; };
+		BC324A762B2F1C3700448CED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A752B2F1C3600448CED /* LoginView.swift */; };
+		BC324A782B2F1CC300448CED /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A772B2F1CC300448CED /* RoleSelectionView.swift */; };
+		BC324A7A2B2F1CD900448CED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A792B2F1CD900448CED /* HomeView.swift */; };
+		BC324A7C2B2F1CE000448CED /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC324A7B2B2F1CE000448CED /* ProfileView.swift */; };
+		BCF2FA322B32CD4E00262FC5 /* HostEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF2FA312B32CD4E00262FC5 /* HostEventView.swift */; };
+		BCF2FA342B32CFEF00262FC5 /* FillEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF2FA332B32CFEF00262FC5 /* FillEventDetailView.swift */; };
+		BCF2FA372B3334AD00262FC5 /* CustomTextField in Frameworks */ = {isa = PBXBuildFile; productRef = BCF2FA362B3334AD00262FC5 /* CustomTextField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC188BFE2B3956E400CA70B3 /* PendingEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingEventView.swift; sourceTree = "<group>"; };
 		BC324A642B2F1C0100448CED /* Events.au.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.au.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC324A672B2F1C0100448CED /* Events_auApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events_auApp.swift; sourceTree = "<group>"; };
 		BC324A692B2F1C0100448CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC324A6B2B2F1C0300448CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC324A6E2B2F1C0300448CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC324A752B2F1C3600448CED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BC324A772B2F1CC300448CED /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
+		BC324A792B2F1CD900448CED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC324A7B2B2F1CE000448CED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BCF2FA312B32CD4E00262FC5 /* HostEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostEventView.swift; sourceTree = "<group>"; };
+		BCF2FA332B32CFEF00262FC5 /* FillEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillEventDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF2FA372B3334AD00262FC5 /* CustomTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +70,14 @@
 				BC324A672B2F1C0100448CED /* Events_auApp.swift */,
 				BC324A692B2F1C0100448CED /* ContentView.swift */,
 				BC324A6B2B2F1C0300448CED /* Assets.xcassets */,
+				BCF2FA312B32CD4E00262FC5 /* HostEventView.swift */,
+				BCF2FA332B32CFEF00262FC5 /* FillEventDetailView.swift */,
+				BC188BFE2B3956E400CA70B3 /* PendingEventView.swift */,
 				BC324A6D2B2F1C0300448CED /* Preview Content */,
+				BC324A752B2F1C3600448CED /* LoginView.swift */,
+				BC324A792B2F1CD900448CED /* HomeView.swift */,
+				BC324A7B2B2F1CE000448CED /* ProfileView.swift */,
+				BC324A772B2F1CC300448CED /* RoleSelectionView.swift */,
 			);
 			path = Events.au;
 			sourceTree = "<group>";
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = Events.au;
+			packageProductDependencies = (
+				BCF2FA362B3334AD00262FC5 /* CustomTextField */,
+			);
 			productName = Events.au;
 			productReference = BC324A642B2F1C0100448CED /* Events.au.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = BC324A5B2B2F1C0100448CED;
+			packageReferences = (
+				BCF2FA352B3334AD00262FC5 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */,
+			);
 			productRefGroup = BC324A652B2F1C0100448CED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC324A762B2F1C3700448CED /* LoginView.swift in Sources */,
+				BCF2FA322B32CD4E00262FC5 /* HostEventView.swift in Sources */,
+				BC324A782B2F1CC300448CED /* RoleSelectionView.swift in Sources */,
+				BCF2FA342B32CFEF00262FC5 /* FillEventDetailView.swift in Sources */,
+				BC188BFF2B3956E400CA70B3 /* PendingEventView.swift in Sources */,
 				BC324A6A2B2F1C0100448CED /* ContentView.swift in Sources */,
+				BC324A7A2B2F1CD900448CED /* HomeView.swift in Sources */,
+				BC324A7C2B2F1CE000448CED /* ProfileView.swift in Sources */,
 				BC324A682B2F1C0100448CED /* Events_auApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCF2FA352B3334AD00262FC5 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/esatgozcu/SwiftUI-Custom-TextField";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCF2FA362B3334AD00262FC5 /* CustomTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCF2FA352B3334AD00262FC5 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */;
+			productName = CustomTextField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BC324A5C2B2F1C0100448CED /* Project object */;
 }
